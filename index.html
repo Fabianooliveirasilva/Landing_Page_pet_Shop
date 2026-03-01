@@ -1,0 +1,837 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      PetShop Amor de Patas em Belo Horizonte | Banho, Tosa e Cuidados
+    </title>
+    <meta
+      name="description"
+      content="Pet shop em Belo Horizonte com banho, tosa e cuidados completos para cães e gatos. Agende no WhatsApp e receba ofertas exclusivas."
+    />
+    <meta name="theme-color" content="#0f766e" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="PetShop Amor de Patas em Belo Horizonte | Cuidado completo para o seu pet"
+    />
+    <meta
+      property="og:description"
+      content="Atendimento completo em Belo Horizonte: banho, tosa, consultas e produtos selecionados para cães e gatos."
+    />
+    <meta
+      property="og:image"
+      content="https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    />
+    <meta property="og:url" content="https://amordepataspetshop.com.br" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      window.MARKETING_CONFIG = {
+        gaMeasurementId: "G-AB12CD34EF",
+        metaPixelId: "123456789012345",
+
+        // Webhook genérico (opcional)
+        leadWebhookUrl: "",
+        followUpWebhookUrl: "",
+
+        // Cenário recomendado: RD Station via webhook (ative preenchendo a URL)
+        rdStationWebhookUrl: "https://hooks.make.com/SEU_ENDPOINT_RD",
+        rdConversionIdentifier: "LP Pet Shop | Lead | Banho e Tosa",
+
+        // Alternativa: HubSpot Form API (preencha portalId e formGuid)
+        hubspotWebhookUrl: "",
+        hubspotPortalId: "12345678",
+        hubspotFormGuid: "00000000-0000-0000-0000-000000000000",
+      };
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "PetStore",
+        "name": "Amor de Patas Pet Shop",
+        "url": "https://amordepataspetshop.com.br",
+        "telephone": "+55-31-0000-0000",
+        "image": "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Av. Exemplo, 123",
+          "addressLocality": "Belo Horizonte",
+          "addressRegion": "MG",
+          "postalCode": "30110-000",
+          "addressCountry": "BR"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "08:00",
+            "closes": "19:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "08:00",
+            "closes": "17:00"
+          }
+        ],
+        "areaServed": [
+          "Belo Horizonte",
+          "Savassi",
+          "Funcionários",
+          "Lourdes",
+          "Santo Agostinho"
+        ]
+      }
+    </script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <a
+          href="#inicio"
+          class="brand"
+          aria-label="Página inicial Amor de Patas"
+        >
+          <span class="brand-mark">🐾</span>
+          <span class="brand-text">Amor de Patas</span>
+        </a>
+        <div class="nav-actions">
+          <nav class="menu" aria-label="Navegação principal">
+            <a href="#servicos">Serviços</a>
+            <a href="#precos">Preços</a>
+            <a href="#depoimentos">Depoimentos</a>
+            <a href="#antes-depois">Antes e depois</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#localizacao">Localização</a>
+            <a href="#faq">FAQ</a>
+            <a href="#beneficios">Benefícios</a>
+            <a href="#contato" class="btn btn-sm">Quero ofertas</a>
+          </nav>
+          <button
+            id="themeToggle"
+            class="btn btn-sm btn-outline theme-toggle"
+            type="button"
+            aria-label="Alternar modo escuro"
+            aria-pressed="false"
+          >
+            🌙 Modo escuro
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-top-media">
+            <img
+              src="https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt="Foto de cachorro caramelo em destaque"
+              width="1200"
+              height="500"
+              fetchpriority="high"
+              loading="eager"
+              onerror="
+                this.onerror = null;
+                this.src = 'assets/cachorro-caramelo.svg';
+                this.alt = 'Ilustração de cachorro caramelo em destaque';
+              "
+            />
+          </div>
+
+          <div class="hero-content">
+            <p class="kicker">Pet shop completo com atendimento humanizado</p>
+            <h1 id="heroTitle">
+              Mais saúde, conforto e alegria para o seu melhor amigo
+            </h1>
+            <p class="subtitle" id="heroSubtitle">
+              Banho e tosa com carinho, consulta veterinária e os melhores
+              produtos em um só lugar. Cadastre-se e receba um cupom de
+              boas-vindas.
+            </p>
+            <div class="cta-group">
+              <a href="#contato" class="btn btn-lg" id="heroPrimaryCta"
+                >Ganhar cupom agora</a
+              >
+              <a href="#servicos" class="btn btn-outline btn-lg"
+                >Ver serviços</a
+              >
+            </div>
+            <ul class="trust-list" aria-label="Diferenciais">
+              <li>✅ Atendimento especializado</li>
+              <li>✅ Ambiente seguro e higienizado</li>
+              <li>✅ Mais de 2.000 pets atendidos</li>
+            </ul>
+          </div>
+          <aside class="hero-card" aria-label="Oferta principal">
+            <h2>Oferta de Boas-Vindas</h2>
+            <p>Cadastre seu contato e receba:</p>
+            <ul>
+              <li>10% OFF no primeiro banho e tosa</li>
+              <li>Checklist gratuito de cuidados</li>
+              <li>Acesso às promoções da semana</li>
+            </ul>
+            <a href="#contato" class="btn btn-block">Quero receber</a>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section section-urgency" aria-label="Oferta com prazo">
+        <div class="container urgency-wrap">
+          <div>
+            <p class="kicker">Oferta por tempo limitado</p>
+            <h2>
+              Garanta 10% OFF no primeiro banho e tosa até o fim da campanha
+            </h2>
+            <p class="section-intro">
+              Cadastre-se agora para receber o cupom e agendar com prioridade.
+            </p>
+          </div>
+          <div
+            class="countdown"
+            id="countdown"
+            data-deadline="2026-04-30T23:59:59-03:00"
+          >
+            <div class="count-item">
+              <strong id="cdDays">00</strong>
+              <span>Dias</span>
+            </div>
+            <div class="count-item">
+              <strong id="cdHours">00</strong>
+              <span>Horas</span>
+            </div>
+            <div class="count-item">
+              <strong id="cdMinutes">00</strong>
+              <span>Min</span>
+            </div>
+            <div class="count-item">
+              <strong id="cdSeconds">00</strong>
+              <span>Seg</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="servicos" class="section">
+        <div class="container">
+          <h2>Serviços que seu pet vai amar</h2>
+          <p class="section-intro">
+            Equipe treinada para cuidar com carinho e técnica em cada etapa do
+            atendimento.
+          </p>
+          <div class="cards">
+            <article class="card">
+              <h3>Banho e Tosa</h3>
+              <p>
+                Higienização completa, hidratação e tosa personalizada para cada
+                raça.
+              </p>
+              <a
+                class="schedule-btn"
+                href="https://wa.me/5531000000000?text=Ol%C3%A1%2C%20quero%20agendar%20Banho%20e%20Tosa%20para%20meu%20pet."
+                target="_blank"
+                rel="noopener noreferrer"
+                data-service="Banho e Tosa"
+                >Agendar este serviço</a
+              >
+            </article>
+            <article class="card">
+              <h3>Consulta Veterinária</h3>
+              <p>
+                Acompanhamento preventivo para manter seu pet saudável o ano
+                inteiro.
+              </p>
+              <a
+                class="schedule-btn"
+                href="https://wa.me/5531000000000?text=Ol%C3%A1%2C%20quero%20agendar%20Consulta%20Veterin%C3%A1ria%20para%20meu%20pet."
+                target="_blank"
+                rel="noopener noreferrer"
+                data-service="Consulta Veterinária"
+                >Agendar este serviço</a
+              >
+            </article>
+            <article class="card">
+              <h3>Hotelzinho e Day Care</h3>
+              <p>
+                Espaço seguro para seu pet brincar, socializar e gastar energia
+                com supervisão.
+              </p>
+              <a
+                class="schedule-btn"
+                href="https://wa.me/5531000000000?text=Ol%C3%A1%2C%20quero%20agendar%20Hotelzinho%20ou%20Day%20Care%20para%20meu%20pet."
+                target="_blank"
+                rel="noopener noreferrer"
+                data-service="Hotelzinho e Day Care"
+                >Agendar este serviço</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="precos" class="section section-alt">
+        <div class="container">
+          <h2>Tabela de preços iniciais</h2>
+          <p class="section-intro">
+            Valores de referência para banho e tosa. O valor final pode variar
+            conforme raça, tipo de pelagem e estado do pelo.
+          </p>
+          <div class="price-grid">
+            <article class="price-card">
+              <h3>Porte pequeno</h3>
+              <p class="price-value">A partir de R$ 69</p>
+              <ul>
+                <li>Banho completo</li>
+                <li>Secagem e escovação</li>
+                <li>Perfume pet</li>
+              </ul>
+            </article>
+            <article class="price-card">
+              <h3>Porte médio</h3>
+              <p class="price-value">A partir de R$ 89</p>
+              <ul>
+                <li>Banho completo</li>
+                <li>Secagem e escovação</li>
+                <li>Higiene de ouvido</li>
+              </ul>
+            </article>
+            <article class="price-card">
+              <h3>Porte grande</h3>
+              <p class="price-value">A partir de R$ 119</p>
+              <ul>
+                <li>Banho completo</li>
+                <li>Secagem e escovação</li>
+                <li>Finalização personalizada</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-label="Selos de confiança">
+        <div class="container">
+          <h2>Selos de confiança</h2>
+          <div class="seal-grid">
+            <div class="seal-item">✅ Vacinação exigida para atendimento</div>
+            <div class="seal-item">✅ Ambiente higienizado diariamente</div>
+            <div class="seal-item">✅ Equipe certificada e treinada</div>
+            <div class="seal-item">✅ Protocolos de segurança e bem-estar</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="produtos" class="section section-alt">
+        <div class="container">
+          <h2>Produtos selecionados com qualidade</h2>
+          <p class="section-intro">
+            Rações premium, snacks naturais, brinquedos e acessórios das
+            melhores marcas.
+          </p>
+          <div class="highlights">
+            <div class="highlight">
+              <strong>Nutrição</strong>
+              <p>Linha completa para cada fase da vida do seu pet.</p>
+            </div>
+            <div class="highlight">
+              <strong>Saúde</strong>
+              <p>Suplementos, antipulgas e itens de cuidado diário.</p>
+            </div>
+            <div class="highlight">
+              <strong>Diversão</strong>
+              <p>Brinquedos de enriquecimento e acessórios para passeios.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="beneficios" class="section">
+        <div class="container benefit-grid">
+          <div>
+            <h2>Por que os tutores escolhem a gente?</h2>
+            <ul class="benefit-list">
+              <li>Atendimento rápido via WhatsApp</li>
+              <li>Planos mensais com economia real</li>
+              <li>Equipe com formação em comportamento animal</li>
+              <li>Programa de fidelidade com pontos</li>
+            </ul>
+          </div>
+          <div class="testimonial">
+            <p>
+              “Depois que comecei a levar a Mel no Amor de Patas, ela voltou
+              para casa tranquila e feliz. Atendimento impecável!”
+            </p>
+            <span>— Camila R., cliente há 2 anos</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="depoimentos" class="section">
+        <div class="container">
+          <h2>O que nossos clientes dizem</h2>
+          <p class="section-intro">
+            Avaliações reais de tutores que já confiaram no nosso cuidado.
+          </p>
+          <div class="review-grid">
+            <article class="review-card">
+              <p>
+                “Atendimento impecável! O Thor voltou cheiroso, tranquilo e com
+                a tosa perfeita.”
+              </p>
+              <span>★★★★★ • Juliana M. — Centro</span>
+            </article>
+            <article class="review-card">
+              <p>
+                “Meu gato sempre ficava estressado em pet shop, aqui ele foi
+                super bem tratado. Recomendo muito!”
+              </p>
+              <span>★★★★★ • Rafael C. — Jardim América</span>
+            </article>
+            <article class="review-card">
+              <p>
+                “Preço justo, equipe atenciosa e lembretes no WhatsApp que
+                ajudam muito na rotina.”
+              </p>
+              <span>★★★★★ • Patrícia L. — Vila Nova</span>
+            </article>
+            <article class="review-card">
+              <p>
+                “Comprei ração e já agendei banho na mesma hora. Prático e
+                atendimento excelente.”
+              </p>
+              <span>★★★★★ • Bruno S. — Bairro Alto</span>
+            </article>
+            <article class="review-card">
+              <p>
+                “Estrutura limpa, equipe carinhosa e pontualidade no horário de
+                entrega.”
+              </p>
+              <span>★★★★★ • Camila R. — Boa Vista</span>
+            </article>
+            <article class="review-card">
+              <p>
+                “O plano mensal compensou bastante. Meu pet está sempre em dia
+                com os cuidados.”
+              </p>
+              <span>★★★★★ • André N. — Santa Luzia</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="momentos" class="section section-pets">
+        <div class="container">
+          <h2>Momentos especiais com gatos e cachorros</h2>
+          <p class="section-intro">
+            Aqui cada pet recebe cuidado individual. Veja alguns registros do
+            nosso dia a dia, intercalando os aumigos e os gateiros mais fofos do
+            bairro.
+          </p>
+
+          <div class="pet-strip">
+            <article class="pet-row">
+              <div class="pet-photo">
+                <img
+                  src="https://images.pexels.com/photos/4587991/pexels-photo-4587991.jpeg?auto=compress&cs=tinysrgb&w=1400"
+                  alt="Cachorro feliz recebendo carinho no pet shop"
+                  loading="lazy"
+                  width="1200"
+                  height="800"
+                />
+              </div>
+              <div class="pet-copy">
+                <h3>Hora do banho dos cachorros</h3>
+                <p>
+                  Higiene completa com produtos de qualidade e secagem segura
+                  para manter o pelo brilhando.
+                </p>
+              </div>
+            </article>
+
+            <article class="pet-row reverse">
+              <div class="pet-photo">
+                <img
+                  src="https://images.pexels.com/photos/9789452/pexels-photo-9789452.jpeg?auto=compress&cs=tinysrgb&w=1400"
+                  alt="Gato sendo atendido com cuidado no pet shop"
+                  loading="lazy"
+                  width="1200"
+                  height="800"
+                />
+              </div>
+              <div class="pet-copy">
+                <h3>Atendimento calmo para gatos</h3>
+                <p>
+                  Ambiente tranquilo para reduzir estresse e garantir uma
+                  experiência confortável para os felinos.
+                </p>
+              </div>
+            </article>
+
+            <article class="pet-row">
+              <div class="pet-photo">
+                <img
+                  src="https://images.pexels.com/photos/5257587/pexels-photo-5257587.jpeg?auto=compress&cs=tinysrgb&w=1400"
+                  alt="Cachorro durante sessão de tosa no pet shop"
+                  loading="lazy"
+                  width="1200"
+                  height="800"
+                />
+              </div>
+              <div class="pet-copy">
+                <h3>Tosa personalizada para cada raça</h3>
+                <p>
+                  Técnicas específicas para deixar seu cachorro confortável,
+                  limpo e com visual impecável.
+                </p>
+              </div>
+            </article>
+
+            <article class="pet-row reverse">
+              <div class="pet-photo">
+                <img
+                  src="https://images.pexels.com/photos/13816016/pexels-photo-13816016.jpeg?auto=compress&cs=tinysrgb&w=1400"
+                  alt="Gato descansando após cuidados de higiene"
+                  loading="lazy"
+                  width="1200"
+                  height="800"
+                />
+              </div>
+              <div class="pet-copy">
+                <h3>Cuidados felinos com muito carinho</h3>
+                <p>
+                  Protocolos pensados para gatos, com manejo gentil e atenção
+                  aos detalhes em cada atendimento.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="antes-depois" class="section">
+        <div class="container">
+          <h2>Antes e depois</h2>
+          <p class="section-intro">
+            Transformações reais de pets atendidos no Amor de Patas.
+          </p>
+          <div class="before-after-grid">
+            <article class="before-after-card">
+              <div class="before-after-photos">
+                <img
+                  src="https://images.pexels.com/photos/7210754/pexels-photo-7210754.jpeg?auto=compress&cs=tinysrgb&w=900"
+                  alt="Cachorro antes do banho e tosa"
+                  loading="lazy"
+                />
+                <img
+                  src="https://images.pexels.com/photos/6816850/pexels-photo-6816850.jpeg?auto=compress&cs=tinysrgb&w=900"
+                  alt="Cachorro depois do banho e tosa"
+                  loading="lazy"
+                />
+              </div>
+              <p class="before-after-caption">Thor • banho + tosa higiênica</p>
+            </article>
+            <article class="before-after-card">
+              <div class="before-after-photos">
+                <img
+                  src="https://images.pexels.com/photos/13178491/pexels-photo-13178491.jpeg?auto=compress&cs=tinysrgb&w=900"
+                  alt="Gato antes da escovação"
+                  loading="lazy"
+                />
+                <img
+                  src="https://images.pexels.com/photos/320014/pexels-photo-320014.jpeg?auto=compress&cs=tinysrgb&w=900"
+                  alt="Gato depois da escovação"
+                  loading="lazy"
+                />
+              </div>
+              <p class="before-after-caption">
+                Mia • escovação + higiene felina
+              </p>
+            </article>
+            <article class="before-after-card">
+              <div class="before-after-photos">
+                <img
+                  src="https://images.pexels.com/photos/1741235/pexels-photo-1741235.jpeg?auto=compress&cs=tinysrgb&w=900"
+                  alt="Cachorro antes da tosa"
+                  loading="lazy"
+                />
+                <img
+                  src="https://images.pexels.com/photos/5731866/pexels-photo-5731866.jpeg?auto=compress&cs=tinysrgb&w=900"
+                  alt="Cachorro depois da tosa"
+                  loading="lazy"
+                />
+              </div>
+              <p class="before-after-caption">Mel • tosa bebê</p>
+            </article>
+            <article class="before-after-card">
+              <div class="before-after-photos">
+                <img
+                  src="https://images.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg?auto=compress&cs=tinysrgb&w=900"
+                  alt="Gato antes da higienização"
+                  loading="lazy"
+                />
+                <img
+                  src="https://images.pexels.com/photos/2071882/pexels-photo-2071882.jpeg?auto=compress&cs=tinysrgb&w=900"
+                  alt="Gato após cuidados no pet shop"
+                  loading="lazy"
+                />
+              </div>
+              <p class="before-after-caption">
+                Nino • protocolo felino completo
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="localizacao" class="section section-alt">
+        <div class="container location-grid">
+          <div>
+            <h2>Localização e horário</h2>
+            <p class="section-intro">
+              Atendemos Belo Horizonte e região com estrutura completa para cães
+              e gatos.
+            </p>
+            <ul class="location-list">
+              <li>
+                <strong>Endereço:</strong> Av. Exemplo, 123 - Savassi, Belo
+                Horizonte - MG
+              </li>
+              <li>
+                <strong>Horário:</strong> Seg a Sex 08h às 19h • Sáb 08h às 17h
+              </li>
+              <li><strong>WhatsApp:</strong> (31) 00000-0000</li>
+              <li>
+                <strong>Regiões:</strong> Savassi, Lourdes, Funcionários, Santo
+                Agostinho e entorno
+              </li>
+            </ul>
+            <div class="cta-group">
+              <a
+                class="btn btn-lg"
+                href="https://wa.me/5531000000000?text=Ol%C3%A1%2C%20quero%20agendar%20um%20hor%C3%A1rio%20no%20pet%20shop."
+                target="_blank"
+                rel="noopener noreferrer"
+                >Agendar agora</a
+              >
+              <a
+                class="btn btn-outline btn-lg"
+                href="https://maps.google.com/?q=Av.+Exemplo,+123,+Belo+Horizonte+MG"
+                target="_blank"
+                rel="noopener noreferrer"
+                id="openMapBtn"
+                >Abrir no mapa</a
+              >
+            </div>
+          </div>
+          <div class="map-frame-wrap">
+            <iframe
+              title="Mapa do Pet Shop Amor de Patas"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Pra%C3%A7a%20da%20Liberdade%2C%20Belo%20Horizonte&output=embed"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="section section-alt">
+        <div class="container">
+          <h2>Perguntas frequentes</h2>
+          <p class="section-intro">
+            Respostas rápidas para facilitar sua decisão e agilizar seu
+            agendamento.
+          </p>
+          <div class="faq-list">
+            <details>
+              <summary>Quanto tempo leva banho e tosa?</summary>
+              <p>
+                Em média de 1h30 a 2h30, conforme porte, tipo de pelagem e
+                serviços adicionais.
+              </p>
+            </details>
+            <details>
+              <summary>Precisa ter vacina em dia para atendimento?</summary>
+              <p>
+                Sim. Por segurança de todos os pets, pedimos carteira de
+                vacinação atualizada.
+              </p>
+            </details>
+            <details>
+              <summary>Vocês atendem gatos também?</summary>
+              <p>
+                Sim, com protocolo específico para felinos e ambiente preparado
+                para reduzir estresse.
+              </p>
+            </details>
+            <details>
+              <summary>Quais formas de pagamento aceitam?</summary>
+              <p>
+                Aceitamos PIX, cartões de débito/crédito e pagamento em
+                dinheiro.
+              </p>
+            </details>
+            <details>
+              <summary>Como funciona o cupom de boas-vindas?</summary>
+              <p>
+                Após cadastro, você entra na lista VIP e recebe instruções para
+                usar o cupom no primeiro serviço.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato" class="section section-form">
+        <div class="container form-wrap">
+          <div>
+            <h2>Receba ofertas e agende com prioridade</h2>
+            <p class="section-intro">
+              Preencha o formulário para entrar na nossa lista VIP e receber
+              promoções exclusivas.
+            </p>
+          </div>
+
+          <form
+            id="leadForm"
+            class="lead-form"
+            action="https://formsubmit.co/ajax/SEU_EMAIL_AQUI"
+            method="POST"
+            novalidate
+          >
+            <input
+              type="hidden"
+              name="_subject"
+              value="Novo lead - Landing Page Pet Shop"
+            />
+            <input type="hidden" name="_template" value="table" />
+            <input
+              type="text"
+              name="_honey"
+              class="hidden-field"
+              tabindex="-1"
+              autocomplete="off"
+            />
+            <input
+              type="hidden"
+              name="lead_magnet"
+              value="Checklist de cuidados semanais"
+            />
+
+            <label for="nome">Nome</label>
+            <input
+              id="nome"
+              name="nome"
+              type="text"
+              required
+              placeholder="Seu nome completo"
+            />
+
+            <label for="telefone">Telefone/WhatsApp</label>
+            <input
+              id="telefone"
+              name="telefone"
+              type="tel"
+              required
+              placeholder="(00) 00000-0000"
+            />
+
+            <label for="email">E-mail</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              required
+              placeholder="voce@exemplo.com"
+            />
+
+            <label for="interesse">Principal interesse</label>
+            <select id="interesse" name="interesse" required>
+              <option value="" selected disabled>Selecione</option>
+              <option>Banho e tosa</option>
+              <option>Consulta veterinária</option>
+              <option>Hotelzinho / Day care</option>
+              <option>Produtos e acessórios</option>
+            </select>
+
+            <label class="consent-box" for="consentimento">
+              <input
+                id="consentimento"
+                name="consentimento"
+                type="checkbox"
+                required
+              />
+              <span>
+                Li e concordo com a
+                <a
+                  href="politica-privacidade.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Política de Privacidade
+                </a>
+                e autorizo o contato para ofertas e novidades.
+              </span>
+            </label>
+
+            <button type="submit" class="btn btn-block">
+              Quero receber ofertas
+            </button>
+            <p
+              id="formMessage"
+              class="form-message"
+              role="status"
+              aria-live="polite"
+            ></p>
+            <small
+              >Ao enviar, você concorda em receber comunicações promocionais.
+              Você pode cancelar quando quiser.</small
+            >
+            <a
+              id="leadMagnetLink"
+              class="lead-magnet-link"
+              href="assets/checklist-cuidados-pet.txt"
+              download
+              hidden
+              >🎁 Baixar checklist gratuito de cuidados semanais</a
+            >
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <a
+      href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20quero%20agendar%20um%20servi%C3%A7o%20para%20meu%20pet."
+      class="whatsapp-float"
+      id="whatsappFloat"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Conversar no WhatsApp"
+      >💬 WhatsApp</a
+    >
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>
+          © <span id="year"></span> Amor de Patas Pet Shop. Todos os direitos
+          reservados.
+        </p>
+        <a href="#inicio" aria-label="Voltar ao topo">Voltar ao topo ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>

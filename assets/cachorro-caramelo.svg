@@ -1,0 +1,66 @@
+<svg width="1200" height="500" viewBox="0 0 1200 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Cachorro caramelo em destaque</title>
+  <desc id="desc">Ilustração de um cachorro caramelo sorrindo em um cenário claro.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF8E1"/>
+      <stop offset="0.55" stop-color="#FFE6BF"/>
+      <stop offset="1" stop-color="#FDE68A"/>
+    </linearGradient>
+    <linearGradient id="fur" x1="420" y1="130" x2="820" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8A157"/>
+      <stop offset="1" stop-color="#D97706"/>
+    </linearGradient>
+    <linearGradient id="ear" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#C56A1A"/>
+      <stop offset="1" stop-color="#9A4E0F"/>
+    </linearGradient>
+    <filter id="shadow" x="320" y="80" width="560" height="370" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#7C2D12" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="500" rx="28" fill="url(#bg)"/>
+
+  <g opacity="0.35" fill="#F59E0B">
+    <circle cx="120" cy="110" r="18"/>
+    <circle cx="180" cy="80" r="12"/>
+    <circle cx="250" cy="120" r="14"/>
+    <circle cx="1040" cy="95" r="16"/>
+    <circle cx="1110" cy="130" r="12"/>
+    <circle cx="980" cy="145" r="10"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <ellipse cx="600" cy="270" rx="210" ry="150" fill="url(#fur)"/>
+
+    <path d="M432 210C402 180 396 142 413 124C429 107 463 120 492 156L515 189L465 230L432 210Z" fill="url(#ear)"/>
+    <path d="M768 210C798 180 804 142 787 124C771 107 737 120 708 156L685 189L735 230L768 210Z" fill="url(#ear)"/>
+
+    <ellipse cx="600" cy="250" rx="145" ry="125" fill="url(#fur)"/>
+    <ellipse cx="600" cy="288" rx="102" ry="72" fill="#F4B87D"/>
+
+    <ellipse cx="548" cy="244" rx="14" ry="18" fill="#1F2937"/>
+    <ellipse cx="652" cy="244" rx="14" ry="18" fill="#1F2937"/>
+    <circle cx="543" cy="238" r="4" fill="#FFFFFF"/>
+    <circle cx="647" cy="238" r="4" fill="#FFFFFF"/>
+
+    <ellipse cx="600" cy="280" rx="24" ry="18" fill="#7C2D12"/>
+    <path d="M560 322C572 343 590 353 600 353C610 353 628 343 640 322" stroke="#7C2D12" stroke-width="9" stroke-linecap="round"/>
+
+    <path d="M480 214C500 198 520 194 536 202" stroke="#A85B12" stroke-width="8" stroke-linecap="round"/>
+    <path d="M720 214C700 198 680 194 664 202" stroke="#A85B12" stroke-width="8" stroke-linecap="round"/>
+
+    <ellipse cx="505" cy="297" rx="16" ry="12" fill="#EAAE75"/>
+    <ellipse cx="695" cy="297" rx="16" ry="12" fill="#EAAE75"/>
+  </g>
+
+  <g fill="#0F766E" opacity="0.16">
+    <circle cx="350" cy="410" r="24"/>
+    <circle cx="410" cy="390" r="16"/>
+    <circle cx="455" cy="420" r="14"/>
+    <circle cx="840" cy="410" r="24"/>
+    <circle cx="900" cy="390" r="16"/>
+    <circle cx="945" cy="420" r="14"/>
+  </g>
+</svg>
